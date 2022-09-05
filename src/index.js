@@ -43,7 +43,7 @@ form.addEventListener("submit", event => {
                 else {
                     console.log(newData);
                     mainDiv.innerHTML = "";
-                    for (i = 1; i < newData.length; i++) {
+                    for (let i = 1; i < newData.length; i++) {
                         mainDiv.insertAdjacentHTML("beforeend", `<div class="single-image">
                     <div class="image-box"><img class="image" src="${newData[i].webformatURL}" alt="${newData[i].alt}"></div>
                 <div class="info">
@@ -92,7 +92,7 @@ button.addEventListener("click", () => {
                         downloads: results.downloads
                     }
                 })
-                for (i = 1; i < newData.length; i++) {
+                for (let i = 1; i < newData.length; i++) {
                     mainDiv.insertAdjacentHTML("beforeend", `<div class="single-image">
             <div class="image-box"><img class="image" src="${newData[i].webformatURL}" alt="${newData[i].alt}"></div>
         <div class="info">
