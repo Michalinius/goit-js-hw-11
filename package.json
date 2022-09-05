@@ -22,7 +22,8 @@
     "buffer": "^6.0.3",
     "buffer-indexof-polyfill": "^1.0.2",
     "modern-normalize": "^1.1.0",
-    "notiflix": "^3.2.5"
+    "notiflix": "^3.2.5",
+    "polyfill": "^0.1.0"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
